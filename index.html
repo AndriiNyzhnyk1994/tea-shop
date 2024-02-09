@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <div class="menu--close "></div>
   <header class="header">
     <div class="container">
       <div class="header__inner">
@@ -24,12 +25,47 @@
         </a>
         <!-- NAV MENU IN TOP -->
         <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <ul class="menu__list">
+            <li class="menu__close">
+              <button class="menu__close-btn">
+                <img src="images/close.svg" alt="close">
+              </button>
+            </li>
             <li class="menu__item"><a href="#" class="menu__link">Black</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Green</a></li>
             <li class="menu__item"><a href="#" class="menu__link">White</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Oolong</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Pu-erh</a></li>
+            <li class="mobile-nav">
+              <ul class="mobile-menu">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Contacts</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Our Blog</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Shipping and Delivery</a></li>
+              </ul>
+              <ul class="mobile-actions">
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/cart.svg" alt="">
+                  </a>
+                </li>
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/user.svg" alt="">
+                  </a>
+                </li>
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/search.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <!-- _________________________________ -->
